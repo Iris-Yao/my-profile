@@ -1,0 +1,93 @@
+
+
+body{
+
+	 background-color: rgb(242, 242, 242);
+	font-family: 'Lato', sans-serif;;
+	color: rgb(38, 38, 38);
+	font-size:15px;
+}
+h1{
+	color:rgb(0, 153, 77);
+	font-family:'Saira Semi Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+
+}
+h2{
+	color:rgb(255, 204, 0);
+	font-family:'Saira Semi Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+a{
+	color:rgb(0, 153, 77);
+	font-size: 36px;
+}
+
+a:hover{
+	color: rgb(0, 128, 64);
+}
+.card-white{
+	background: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 30px 10px rgba(0,0,0,0.1);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+#profilepic{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+} 
+.headers-center{
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.container-center{
+    width: 700px;
+    margin: 30px auto;
+}
+@media (max-width: 960px)
+{
+  /* For a screen < 960px, this CSS will be read */
+  .container-center {
+    width: 700px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container-center {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container-center {
+    width: 300px;
+    margin: 30px auto;
+  }
+}
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+
+.list-inline li {
+
+	display: inline;
+	padding: 10px;
+}
+
+    
